@@ -1,5 +1,5 @@
 module Rapidfire
-  class ApplicationController < ::ApplicationController
+  class ApplicationController < Rapidfire.controller_base_class
     if Rapidfire.layout
       layout Rapidfire.layout
     end
